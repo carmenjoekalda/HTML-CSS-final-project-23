@@ -10,9 +10,9 @@ html, body {
     line-height: 1.7em;
 } 
 a {
-    color: #140606;
+    color: #444444;
     text-decoration: none;
-} 
+}
 h1 {
     padding-bottom: 20px;
 } 
@@ -27,12 +27,12 @@ h1 {
 
 /* navigation bar */
 #navbar {
-    background: #140606;
-    color: #F7F7F7;
+    background: #ADD8E6;
+    color: #444444;
     overflow: auto;
 } 
 #navbar a {
-    color: #F7F7F7;
+    color: #444444;
 } 
 #navbar ul {
     float: right;
@@ -47,10 +47,47 @@ h1 {
     text-align: center;
 } 
 #navbar ul li a:hover, #navbar ul li a.current {
-    background: #4C5454;
-    color: #5CC8FF;
+    background: #92CBDD;
+    color: #444444;
+    transition: 0.3s;
 } 
 #navbar h1 {
     padding-top: 20px;
     float: left;
 } 
+
+/* showcase */
+#showcase {
+    background: url('../img/showcase1.png') no-repeat center center/cover;
+    background-size: cover;
+    height: 750px;
+}
+#showcase .showcase-content {
+    color: #444444;
+    text-align: center;
+    padding-top: 200px;
+}
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.3em;
+}
+
+/* home page menu */
+.container-homepage {
+    width: calc(33.33% - 20px);
+    margin: 0 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    float: left;
+} 
+.container .content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
