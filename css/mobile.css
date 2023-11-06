@@ -1,0 +1,85 @@
+/* navbar */
+#navbar h1 {
+    text-align: center;
+    float: none;
+} 
+#navbar ul, #navbar ul li {
+    float: none;
+} 
+#navbar ul li a {
+    padding: 5px;
+} 
+
+/* dropdown menu removal */
+.dropdown-content {
+    display: none;
+} 
+
+/* home page showcase */
+#showcase {
+    height: 100%;
+} 
+#showcase .showcase-content {
+    padding-top: 70px;
+    padding-bottom: 30px;
+} 
+
+/* boxes placed vertically */
+.containerr {
+    display: flex;
+    flex-direction: column; /* Change to vertical layout */
+    padding: 20px;
+} 
+.box {
+    width: 100%;
+    max-width: none;
+    overflow: hidden;
+    opacity: 0.7;
+    margin-bottom: 10px;
+} 
+.box img {
+    height: auto;
+} 
+
+/* boxes darkened and text seen at all times */
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* tab showcase text */
+#showcase2 .showcase2-content {
+    color: #444444;
+    text-align: center;
+    align-content: center;
+}
+#showcase2 .showcase2-content h1 {
+    font-size: 40px;
+} 
+
+footer {
+    padding: 5px;
+    font-size: smaller;
+} 
+
+/* content page */
+.containerrr {
+    flex-direction: column;
+} 
+.formulas-box {
+    width: 100%;
+} 
+.content {
+    width: 100%;
+} 
+.content iframe {
+    width: 100%;
+} 

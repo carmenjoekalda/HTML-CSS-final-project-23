@@ -84,22 +84,6 @@ h1 {
     line-height: 1.3em;
 }
 
-/* tab showcase */
-#showcase2 {
-    background: url(../img/showcase2.png) no-repeat center center/cover;
-    background-size: cover;
-    height: 300px;
-} 
-#showcase2 .showcase2-content {
-    color: #444444;
-    text-align: left;
-    padding-top: 100px;
-}
-#showcase2 .showcase2-content h1 {
-    font-size: 60px;
-    line-height: 1.3em;
-}
-
 /* boxes menu */
 .containerr {
     display: flex;
@@ -144,7 +128,7 @@ h1 {
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     padding: 10px 20px;
     display: none;
 } 
@@ -152,10 +136,53 @@ h1 {
     display: block;
 } 
 
+/* tab showcase */
+#showcase2 {
+    background: url(../img/showcase2.png) no-repeat center center/cover;
+    background-size: cover;
+    height: 300px;
+} 
+#showcase2 .showcase2-content {
+    color: #444444;
+    text-align: left;
+    padding-top: 100px;
+}
+#showcase2 .showcase2-content h1 {
+    font-size: 60px;
+    line-height: 1.3em;
+}
+
+/* content page container */
+.containerrr {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+} 
+
+/* formulas */
+.formulas-box {
+    width: 40%;
+    background-color: white;
+    color: #444444;
+    border: 1px solid black;
+} 
+.formulas-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+/* content */
+.content {
+    width: 60%;
+    background-color: #F5F5F5;
+    margin-left: 20px;
+    padding: 20px;
+} 
+
 /* footer */
 footer {
     text-align: center;
-    padding: 20px;
     background: #E0F1F5;
     color: #444444;
     padding: 10px;
